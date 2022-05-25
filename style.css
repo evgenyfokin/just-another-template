@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: content-box;
 }
 
 .container {
@@ -12,6 +13,7 @@ body {
     background-image: url("img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 
@@ -80,5 +82,196 @@ body {
 }
 
 .button a:hover {
-    background-color: #ea7e10;
+    background-color: #FF4D00FF;
 }
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+    font-family: 'Tinos', serif;
+    color: rgba(214, 126, 53, 1);
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.header-subtitle {
+    font-family: 'Tinos', serif;
+    color: rgba(214, 126, 53, 1);
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.header-subhead {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-subhead::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background: #FFFFFF;
+    top: 163px;
+    left: 333px;
+}
+.header-subhead::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background: #FFFFFF;
+    top: 163px;
+    left: 88px;
+}
+
+
+.header-button {
+    background-color: rgba(255, 116, 0, 1);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 28px;
+    transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+    background-color: #ff4d00;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -60px;
+    font-family: 'Tinos', serif;
+    padding-bottom: 20px;
+}
+
+.card-image {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    padding-top: 4px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card-title span {
+    color: #D67E35;
+    margin-left: 0.20em;
+}
+
+.card-desc {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(101, 99, 99, 1);
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+}
+
+.history-title span {
+    color: #D67E35;
+}
+
+
+ .history-description {
+    color: #656363;
+     font-size: 16px;
+     font-weight: 400;
+     width: 444px;
+     text-align: center;
+     margin-top: 21px;
+ }
+ .history-number {
+     display: flex;
+     justify-content: center;
+     width: 444px;
+     padding-top: 40px;
+     margin-left: 18px;
+ }
+
+.number-item {
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+    font-weight: 400;
+    margin-right: 45px;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.history-pictures {
+    position: relative;
+}
+
+.picture-1 {
+    position: absolute;
+    z-index: 999;
+    top: 36px;
+    left: -560px;
+}
+
+.picture-2 {
+    position: absolute;
+    z-index: 997;
+    top: -17px;
+    left: -372px;
+}
+
+.picture-3 {
+    position: absolute;
+    z-index: 998;
+    top: 156px;
+    left: -283px;
+}
+
+.picture-4 {
+    position: absolute;
+    z-index: 996;
+    top: 24px;
+    left: -284px;
+}
+
