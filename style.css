@@ -349,3 +349,85 @@ body {
     font-size: 26px;
     margin-left: 27px;
 }
+
+
+.menu {
+    background-image: url(img/meny-bg.jpg);
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    padding-top: 98px;
+}
+
+.menu-title {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+}
+
+
+.menu-holder {
+    display: flex;
+    justify-content: space-between;
+    padding: 138px 0 226px 0;
+}
+
+.menu-card {
+    position: relative;
+    width: 350px;
+    height: 510px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.inner-card-img {
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.price-tag {
+    position: absolute;
+    top: 215px;
+    left: 197px;
+}
+
+.price {
+    position: absolute;
+    top: 250px;
+    left: 226px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Cookie', cursive;
+}
+
+.menu__card-title {
+    padding: 16px 0;
+    font-size: 26px;
+}
+
+.menu__card-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu-button {
+    background-color: #FF7400;
+    border: none;
+    padding: 14px 68px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s linear;
+}
+
+.menu-button:hover {
+    background-color: #ff4d00;
+
+}
+
+.menu-button a {
+
+}
