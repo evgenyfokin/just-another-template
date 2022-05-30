@@ -10,12 +10,11 @@ body {
 }
 
 .header {
-    background-image: url("img/bg.jpg");
+    background-image: url('img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
-
 
 .header-line {
     padding-top: 50px;
@@ -34,12 +33,12 @@ body {
 }
 
 .nav-item:hover {
-    color: #FF7400;
+    color: #ff7400;
 }
 
 .cart {
     position: relative;
-    border-right: 1px solid #FFFFFF;
+    border-right: 1px solid #ffffff;
     padding-right: 10px;
     height: 50px;
 }
@@ -51,20 +50,20 @@ body {
 }
 
 .number a {
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 700;
     transition: color 0.3s linear;
 }
 
 .number a:hover {
-    color: #FF7400;
+    color: #ff7400;
 }
 
 .phone-text {
     font-size: 14px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .phone-holder {
@@ -73,8 +72,8 @@ body {
 }
 
 .button a {
-    background-color: #FF7400;
-    color: #FFFFFF;
+    background-color: #ff7400;
+    color: #ffffff;
     text-decoration: none;
     padding: 14px 19px;
     font-weight: 700;
@@ -82,7 +81,7 @@ body {
 }
 
 .button a:hover {
-    background-color: #FF4D00FF;
+    background-color: #ff4d00ff;
 }
 
 .header-down {
@@ -109,7 +108,7 @@ body {
 }
 
 .header-subhead {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -119,7 +118,7 @@ body {
     content: '';
     height: 2px;
     width: 61px;
-    background: #FFFFFF;
+    background: #ffffff;
     top: 163px;
     left: 333px;
 }
@@ -128,15 +127,14 @@ body {
     content: '';
     height: 2px;
     width: 61px;
-    background: #FFFFFF;
+    background: #ffffff;
     top: 163px;
     left: 88px;
 }
 
-
 .header-button {
     background-color: rgba(255, 116, 0, 1);
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -154,7 +152,7 @@ body {
     justify-content: center;
 }
 
-.card{
+.card {
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
     width: 349px;
     margin-right: 31px;
@@ -180,8 +178,8 @@ body {
 }
 
 .card-title span {
-    color: #D67E35;
-    margin-left: 0.20em;
+    color: #d67e35;
+    margin-left: 0.2em;
 }
 
 .card-desc {
@@ -210,30 +208,29 @@ body {
 }
 
 .history-title span {
-    color: #D67E35;
+    color: #d67e35;
 }
 
-
- .history-description {
+.history-description {
     color: #656363;
-     font-size: 16px;
-     font-weight: 400;
-     width: 444px;
-     text-align: center;
-     margin-top: 21px;
- }
- .history-number {
-     display: flex;
-     justify-content: center;
-     width: 444px;
-     padding-top: 40px;
-     margin-left: 18px;
- }
+    font-size: 16px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+.history-number {
+    display: flex;
+    justify-content: center;
+    width: 444px;
+    padding-top: 40px;
+    margin-left: 18px;
+}
 
 .number-item {
     text-align: center;
     font-size: 40px;
-    color: #BC9060;
+    color: #bc9060;
     font-weight: 400;
     margin-right: 45px;
 }
@@ -277,7 +274,7 @@ body {
 }
 
 .black-block {
-    background: url("img/bg2.jpg");
+    background: url('img/bg2.jpg');
     padding: 80px 0;
 }
 
@@ -288,12 +285,11 @@ body {
 }
 
 .left-title {
-    color: #D67E34;
+    color: #d67e34;
     font-size: 52px;
     font-weight: 400;
     font-family: 'Tinos', serif;
     padding-bottom: 20px;
-
 }
 
 .left-text {
@@ -303,8 +299,8 @@ body {
 }
 
 .right-btn {
-    background-color: #FF7400;
-    color: #FFFFFF;
+    background-color: #ff7400;
+    color: #ffffff;
     text-decoration: none;
     padding: 14px 19px;
     font-weight: 700;
@@ -324,7 +320,7 @@ body {
 }
 
 .dishes-title span {
-    color: #D67E34;
+    color: #d67e34;
 }
 
 .burgers {
@@ -350,7 +346,6 @@ body {
     margin-left: 27px;
 }
 
-
 .menu {
     background-image: url(img/meny-bg.jpg);
     font-family: 'Tinos', serif;
@@ -364,7 +359,6 @@ body {
     font-size: 54px;
 }
 
-
 .menu-holder {
     display: flex;
     justify-content: space-between;
@@ -375,7 +369,7 @@ body {
     position: relative;
     width: 350px;
     height: 510px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -412,12 +406,12 @@ body {
 }
 
 .menu-button {
-    background-color: #FF7400;
+    background-color: #ff7400;
     border: none;
     padding: 14px 68px;
     text-decoration: none;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     transition: background-color 0.3s linear;
@@ -425,9 +419,114 @@ body {
 
 .menu-button:hover {
     background-color: #ff4d00;
-
 }
 
-.menu-button a {
+.comment {
+    text-align: center;
+    padding: 104px;
+    background-color: #e5e5e5;
+}
 
+.comment-message {
+    font-style: italic;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.comment-pic {
+    padding-bottom: 17px;
+}
+
+.comment-img {
+    border-radius: 50px;
+}
+
+.comment-type {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.comment-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.comment-navigation {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    width: 29px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dot {
+    border-radius: 50px;
+    width: 5px;
+    height: 5px;
+    background-color: #c4c4c4;
+}
+
+.selected-dot {
+    border: solid 1px #ff7400;
+    background-color: #e5e5e5;
+}
+
+.gallery {
+    position: relative;
+}
+
+.squares {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 222px;
+}
+
+.square {
+    width: 30px;
+    height: 100px;
+    background-color: #ff0000;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-title h2 {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+.gallery-title span {
+    color: #d67e34;
+}
+
+.img-gallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.down-gallery {
+    padding-bottom: 100px;
+}
+
+.cook-gallery {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
 }
