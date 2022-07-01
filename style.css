@@ -362,15 +362,16 @@ body {
 .menu-holder {
     display: flex;
     justify-content: space-between;
-    padding: 138px 0 226px 0;
+    padding: 100px 0 200px 0;
 }
 
 .menu-card {
     position: relative;
     width: 350px;
-    height: 510px;
+    height: 610px;
     background-color: #ffffff;
     text-align: center;
+    margin-top: 20px;
 }
 
 .inner-card-img {
@@ -378,25 +379,35 @@ body {
     margin: 0 auto;
 }
 
-.price-tag {
-    position: absolute;
-    top: 215px;
-    left: 197px;
+.pic-price {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-card-price {
+    position: relative;
+    left: 81px;
+    bottom: 78px;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/price-tag.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .price {
-    position: absolute;
-    top: 250px;
-    left: 226px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 400;
     font-family: 'Cookie', cursive;
 }
 
 .menu__card-title {
-    padding: 16px 0;
     font-size: 26px;
+    padding-bottom: 15px;
 }
 
 .menu__card-description {
@@ -530,3 +541,36 @@ footer {
     text-align: center;
     padding-top: 10px;
 }
+
+@media (max-width: 1450px) {
+    .img-gallery {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .wildest-pic {
+        width: 100%;
+        margin: 30px 0 30px 0;
+    }
+    .ordinary-pic {
+        width: 47%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .menu {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .menu-holder {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .menu-card {
+        width: 100%;
+    }
+} ;
