@@ -192,6 +192,7 @@ body {
 .history-holder {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .history {
@@ -273,6 +274,10 @@ body {
     left: -284px;
 }
 
+.history-pictures-phone {
+    display: none;
+}
+
 .black-block {
     background: url('img/bg2.jpg');
     padding: 80px 0;
@@ -303,6 +308,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     padding: 14px 19px;
+    width: 150px;
     font-weight: 700;
     transition: background-color 0.3s linear;
 }
@@ -530,6 +536,10 @@ body {
 .cook-gallery {
     padding-top: 80px;
     padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 footer {
@@ -567,10 +577,51 @@ footer {
     }
     .menu-holder {
         display: block;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     .menu-card {
         width: 100%;
     }
-} ;
+    .header-title {
+        position: static;
+    }
+    .header-subhead:before,
+    .header-subhead:after {
+        content: none;
+    }
+
+    .cook-gallery {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .cook-gallery img {
+        padding-bottom: 30px;
+    }
+    .block-holder {
+        flex-direction: column;
+    }
+    .left-text {
+        padding-bottom: 50px;
+    }
+    .history-pictures {
+        display: none;
+    }
+    .history-pictures-phone {
+        display: block;
+        margin-top: 70px;
+    }
+    .history-holder {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .history-description,
+    .history-number,
+    .history-title {
+        width: auto;
+    }
+    .history {
+        padding-bottom: 120px;
+    }
+}
